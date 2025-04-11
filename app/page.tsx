@@ -19,8 +19,8 @@ type Outlet = {
 }
 
 export default function Home() {
-  const [latitude, setLatitude] = useState<string>("28.6139")
-  const [longitude, setLongitude] = useState<string>("77.2090")
+  const [latitude, setLatitude] = useState<string>("28.575914272520045")
+  const [longitude, setLongitude] = useState<string>("77.00855533293708")
   const [radius, setRadius] = useState<string>("5")
   const [outlets, setOutlets] = useState<Outlet[]>([])
   const [isLoading, setIsLoading] = useState<boolean>(false)
