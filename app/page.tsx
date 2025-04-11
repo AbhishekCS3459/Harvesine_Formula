@@ -69,7 +69,7 @@ export default function Home() {
                   step="any"
                   value={latitude}
                   onChange={(e) => setLatitude(e.target.value)}
-                  placeholder="Enter latitude"
+                  placeholder="Enter latitude like 28.575914272520045"
                   required
                 />
               </div>
@@ -84,7 +84,7 @@ export default function Home() {
                   step="any"
                   value={longitude}
                   onChange={(e) => setLongitude(e.target.value)}
-                  placeholder="Enter longitude"
+                  placeholder="Enter longitude like 77.00855533293708"
                   required
                 />
               </div>
